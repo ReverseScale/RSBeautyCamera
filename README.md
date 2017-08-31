@@ -112,6 +112,7 @@ NSString *const kGPUImageBeautifyFragmentShaderString = SHADER_STRING (
 Combination Filter通过肤色检测和边缘检测，只对皮肤和非边缘部分进行处理。下面是采用这种方式进行磨皮之后的效果图:
 
 ![](http://og1yl0w9z.bkt.clouddn.com/17-8-31/47538010.jpg)
+
 对比3.5与3.2，可以看到3.5对人脸细节的保护更好，同时对于面部磨皮效果也很好，给人感觉更加真实。
 
 ### 延伸
