@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E0D7100ABFA5C78BB515D36 /* libPods-RSBeautyCameraUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7143FA61697BBAE5A64AE8DF /* libPods-RSBeautyCameraUITests.a */; };
+		17FBA536FAD8E6B0E433266A /* libPods-RSBeautyCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8456A81AE2143694636C1093 /* libPods-RSBeautyCamera.a */; };
+		34140C5B1F57D90400671195 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34140C5A1F57D90400671195 /* main.m */; };
+		34140C5E1F57D90400671195 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34140C5D1F57D90400671195 /* AppDelegate.m */; };
+		34140C611F57D90400671195 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34140C601F57D90400671195 /* ViewController.m */; };
+		34140C641F57D90400671195 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34140C621F57D90400671195 /* Main.storyboard */; };
+		34140C661F57D90400671195 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34140C651F57D90400671195 /* Assets.xcassets */; };
+		34140C691F57D90400671195 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34140C671F57D90400671195 /* LaunchScreen.storyboard */; };
+		34140C741F57D90800671195 /* RSBeautyCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34140C731F57D90800671195 /* RSBeautyCameraTests.m */; };
+		34140C7F1F57D90800671195 /* RSBeautyCameraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34140C7E1F57D90800671195 /* RSBeautyCameraUITests.m */; };
+		34140C8E1F57DC2900671195 /* GPUImageBeautyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 34140C8D1F57DC2900671195 /* GPUImageBeautyFilter.m */; };
+		B1CB1BEB9069531CC9E02F44 /* libPods-RSBeautyCameraTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64E655B1E2B2C6299BEAF646 /* libPods-RSBeautyCameraTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34140C701F57D90800671195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34140C4E1F57D90400671195 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34140C551F57D90400671195;
+			remoteInfo = RSBeautyCamera;
+		};
+		34140C7B1F57D90800671195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34140C4E1F57D90400671195 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34140C551F57D90400671195;
+			remoteInfo = RSBeautyCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34140C561F57D90400671195 /* RSBeautyCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSBeautyCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34140C5A1F57D90400671195 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34140C5C1F57D90400671195 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34140C5D1F57D90400671195 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34140C5F1F57D90400671195 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		34140C601F57D90400671195 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		34140C631F57D90400671195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34140C651F57D90400671195 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34140C681F57D90400671195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34140C6A1F57D90400671195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34140C6F1F57D90700671195 /* RSBeautyCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSBeautyCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34140C731F57D90800671195 /* RSBeautyCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSBeautyCameraTests.m; sourceTree = "<group>"; };
+		34140C751F57D90800671195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34140C7A1F57D90800671195 /* RSBeautyCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSBeautyCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34140C7E1F57D90800671195 /* RSBeautyCameraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSBeautyCameraUITests.m; sourceTree = "<group>"; };
+		34140C801F57D90800671195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34140C8C1F57DC2900671195 /* GPUImageBeautyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageBeautyFilter.h; sourceTree = "<group>"; };
+		34140C8D1F57DC2900671195 /* GPUImageBeautyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageBeautyFilter.m; sourceTree = "<group>"; };
+		38DBE79CCAE06234E2424C91 /* Pods-RSBeautyCameraUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSBeautyCameraUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSBeautyCameraUITests/Pods-RSBeautyCameraUITests.release.xcconfig"; sourceTree = "<group>"; };
+		59CEE5CA688DC490DD098724 /* Pods-RSBeautyCameraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSBeautyCameraTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSBeautyCameraTests/Pods-RSBeautyCameraTests.release.xcconfig"; sourceTree = "<group>"; };
+		64E655B1E2B2C6299BEAF646 /* libPods-RSBeautyCameraTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSBeautyCameraTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7143FA61697BBAE5A64AE8DF /* libPods-RSBeautyCameraUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSBeautyCameraUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8456A81AE2143694636C1093 /* libPods-RSBeautyCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSBeautyCamera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87EC2FA1D76D2F7B5EBF8D3D /* Pods-RSBeautyCameraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSBeautyCameraTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSBeautyCameraTests/Pods-RSBeautyCameraTests.debug.xcconfig"; sourceTree = "<group>"; };
+		92813D14BFA3A7157C279D58 /* Pods-RSBeautyCameraUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSBeautyCameraUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSBeautyCameraUITests/Pods-RSBeautyCameraUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ACE2F831962DDFFE372EC54C /* Pods-RSBeautyCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSBeautyCamera.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSBeautyCamera/Pods-RSBeautyCamera.release.xcconfig"; sourceTree = "<group>"; };
+		E75516EECC3E05F0C36D4F87 /* Pods-RSBeautyCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSBeautyCamera.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSBeautyCamera/Pods-RSBeautyCamera.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34140C531F57D90400671195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17FBA536FAD8E6B0E433266A /* libPods-RSBeautyCamera.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34140C6C1F57D90700671195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1CB1BEB9069531CC9E02F44 /* libPods-RSBeautyCameraTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34140C771F57D90800671195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E0D7100ABFA5C78BB515D36 /* libPods-RSBeautyCameraUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2853D827CF5F0247364AC605 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8456A81AE2143694636C1093 /* libPods-RSBeautyCamera.a */,
+				64E655B1E2B2C6299BEAF646 /* libPods-RSBeautyCameraTests.a */,
+				7143FA61697BBAE5A64AE8DF /* libPods-RSBeautyCameraUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34140C4D1F57D90400671195 = {
+			isa = PBXGroup;
+			children = (
+				34140C581F57D90400671195 /* RSBeautyCamera */,
+				34140C721F57D90800671195 /* RSBeautyCameraTests */,
+				34140C7D1F57D90800671195 /* RSBeautyCameraUITests */,
+				34140C571F57D90400671195 /* Products */,
+				FC303814AACD95EDE1F2CF8A /* Pods */,
+				2853D827CF5F0247364AC605 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		34140C571F57D90400671195 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34140C561F57D90400671195 /* RSBeautyCamera.app */,
+				34140C6F1F57D90700671195 /* RSBeautyCameraTests.xctest */,
+				34140C7A1F57D90800671195 /* RSBeautyCameraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34140C581F57D90400671195 /* RSBeautyCamera */ = {
+			isa = PBXGroup;
+			children = (
+				34140C5C1F57D90400671195 /* AppDelegate.h */,
+				34140C5D1F57D90400671195 /* AppDelegate.m */,
+				34140C5F1F57D90400671195 /* ViewController.h */,
+				34140C601F57D90400671195 /* ViewController.m */,
+				34140C8C1F57DC2900671195 /* GPUImageBeautyFilter.h */,
+				34140C8D1F57DC2900671195 /* GPUImageBeautyFilter.m */,
+				34140C621F57D90400671195 /* Main.storyboard */,
+				34140C651F57D90400671195 /* Assets.xcassets */,
+				34140C671F57D90400671195 /* LaunchScreen.storyboard */,
+				34140C6A1F57D90400671195 /* Info.plist */,
+				34140C591F57D90400671195 /* Supporting Files */,
+			);
+			path = RSBeautyCamera;
+			sourceTree = "<group>";
+		};
+		34140C591F57D90400671195 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34140C5A1F57D90400671195 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34140C721F57D90800671195 /* RSBeautyCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				34140C731F57D90800671195 /* RSBeautyCameraTests.m */,
+				34140C751F57D90800671195 /* Info.plist */,
+			);
+			path = RSBeautyCameraTests;
+			sourceTree = "<group>";
+		};
+		34140C7D1F57D90800671195 /* RSBeautyCameraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34140C7E1F57D90800671195 /* RSBeautyCameraUITests.m */,
+				34140C801F57D90800671195 /* Info.plist */,
+			);
+			path = RSBeautyCameraUITests;
+			sourceTree = "<group>";
+		};
+		FC303814AACD95EDE1F2CF8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E75516EECC3E05F0C36D4F87 /* Pods-RSBeautyCamera.debug.xcconfig */,
+				ACE2F831962DDFFE372EC54C /* Pods-RSBeautyCamera.release.xcconfig */,
+				87EC2FA1D76D2F7B5EBF8D3D /* Pods-RSBeautyCameraTests.debug.xcconfig */,
+				59CEE5CA688DC490DD098724 /* Pods-RSBeautyCameraTests.release.xcconfig */,
+				92813D14BFA3A7157C279D58 /* Pods-RSBeautyCameraUITests.debug.xcconfig */,
+				38DBE79CCAE06234E2424C91 /* Pods-RSBeautyCameraUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34140C551F57D90400671195 /* RSBeautyCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34140C831F57D90800671195 /* Build configuration list for PBXNativeTarget "RSBeautyCamera" */;
+			buildPhases = (
+				FC1C6480EBB198A53503F09D /* [CP] Check Pods Manifest.lock */,
+				34140C521F57D90400671195 /* Sources */,
+				34140C531F57D90400671195 /* Frameworks */,
+				34140C541F57D90400671195 /* Resources */,
+				0E3E804881087D23DEF10D52 /* [CP] Embed Pods Frameworks */,
+				C85D0EE9F534BDE1320AB90F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSBeautyCamera;
+			productName = RSBeautyCamera;
+			productReference = 34140C561F57D90400671195 /* RSBeautyCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34140C6E1F57D90700671195 /* RSBeautyCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34140C861F57D90800671195 /* Build configuration list for PBXNativeTarget "RSBeautyCameraTests" */;
+			buildPhases = (
+				E579D40AE0C3E42C9FA9CEEC /* [CP] Check Pods Manifest.lock */,
+				34140C6B1F57D90700671195 /* Sources */,
+				34140C6C1F57D90700671195 /* Frameworks */,
+				34140C6D1F57D90700671195 /* Resources */,
+				BC6C5C148D1081EC864A7B1C /* [CP] Embed Pods Frameworks */,
+				59DA1E4D4AF966756963E696 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34140C711F57D90800671195 /* PBXTargetDependency */,
+			);
+			name = RSBeautyCameraTests;
+			productName = RSBeautyCameraTests;
+			productReference = 34140C6F1F57D90700671195 /* RSBeautyCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34140C791F57D90800671195 /* RSBeautyCameraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34140C891F57D90800671195 /* Build configuration list for PBXNativeTarget "RSBeautyCameraUITests" */;
+			buildPhases = (
+				5DAA64BF447CBE4F4E44C03F /* [CP] Check Pods Manifest.lock */,
+				34140C761F57D90800671195 /* Sources */,
+				34140C771F57D90800671195 /* Frameworks */,
+				34140C781F57D90800671195 /* Resources */,
+				A01A4742BF767A4EF20206A4 /* [CP] Embed Pods Frameworks */,
+				7C33273CAB781EDFE9EBF3BB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34140C7C1F57D90800671195 /* PBXTargetDependency */,
+			);
+			name = RSBeautyCameraUITests;
+			productName = RSBeautyCameraUITests;
+			productReference = 34140C7A1F57D90800671195 /* RSBeautyCameraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34140C4E1F57D90400671195 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = StevenXie;
+				TargetAttributes = {
+					34140C551F57D90400671195 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7QT42R489Z;
+						ProvisioningStyle = Automatic;
+					};
+					34140C6E1F57D90700671195 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34140C551F57D90400671195;
+					};
+					34140C791F57D90800671195 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34140C551F57D90400671195;
+					};
+				};
+			};
+			buildConfigurationList = 34140C511F57D90400671195 /* Build configuration list for PBXProject "RSBeautyCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34140C4D1F57D90400671195;
+			productRefGroup = 34140C571F57D90400671195 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34140C551F57D90400671195 /* RSBeautyCamera */,
+				34140C6E1F57D90700671195 /* RSBeautyCameraTests */,
+				34140C791F57D90800671195 /* RSBeautyCameraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34140C541F57D90400671195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34140C691F57D90400671195 /* LaunchScreen.storyboard in Resources */,
+				34140C661F57D90400671195 /* Assets.xcassets in Resources */,
+				34140C641F57D90400671195 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34140C6D1F57D90700671195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34140C781F57D90800671195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E3E804881087D23DEF10D52 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSBeautyCamera/Pods-RSBeautyCamera-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59DA1E4D4AF966756963E696 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSBeautyCameraTests/Pods-RSBeautyCameraTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DAA64BF447CBE4F4E44C03F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7C33273CAB781EDFE9EBF3BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSBeautyCameraUITests/Pods-RSBeautyCameraUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A01A4742BF767A4EF20206A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSBeautyCameraUITests/Pods-RSBeautyCameraUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC6C5C148D1081EC864A7B1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSBeautyCameraTests/Pods-RSBeautyCameraTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C85D0EE9F534BDE1320AB90F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSBeautyCamera/Pods-RSBeautyCamera-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E579D40AE0C3E42C9FA9CEEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC1C6480EBB198A53503F09D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34140C521F57D90400671195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34140C8E1F57DC2900671195 /* GPUImageBeautyFilter.m in Sources */,
+				34140C611F57D90400671195 /* ViewController.m in Sources */,
+				34140C5E1F57D90400671195 /* AppDelegate.m in Sources */,
+				34140C5B1F57D90400671195 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34140C6B1F57D90700671195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34140C741F57D90800671195 /* RSBeautyCameraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34140C761F57D90800671195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34140C7F1F57D90800671195 /* RSBeautyCameraUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34140C711F57D90800671195 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34140C551F57D90400671195 /* RSBeautyCamera */;
+			targetProxy = 34140C701F57D90800671195 /* PBXContainerItemProxy */;
+		};
+		34140C7C1F57D90800671195 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34140C551F57D90400671195 /* RSBeautyCamera */;
+			targetProxy = 34140C7B1F57D90800671195 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34140C621F57D90400671195 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34140C631F57D90400671195 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34140C671F57D90400671195 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34140C681F57D90400671195 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34140C811F57D90800671195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34140C821F57D90800671195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34140C841F57D90800671195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E75516EECC3E05F0C36D4F87 /* Pods-RSBeautyCamera.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7QT42R489Z;
+				INFOPLIST_FILE = RSBeautyCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSBeautyCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34140C851F57D90800671195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACE2F831962DDFFE372EC54C /* Pods-RSBeautyCamera.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7QT42R489Z;
+				INFOPLIST_FILE = RSBeautyCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSBeautyCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		34140C871F57D90800671195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87EC2FA1D76D2F7B5EBF8D3D /* Pods-RSBeautyCameraTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSBeautyCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSBeautyCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSBeautyCamera.app/RSBeautyCamera";
+			};
+			name = Debug;
+		};
+		34140C881F57D90800671195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59CEE5CA688DC490DD098724 /* Pods-RSBeautyCameraTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSBeautyCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSBeautyCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSBeautyCamera.app/RSBeautyCamera";
+			};
+			name = Release;
+		};
+		34140C8A1F57D90800671195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92813D14BFA3A7157C279D58 /* Pods-RSBeautyCameraUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = RSBeautyCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSBeautyCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSBeautyCamera;
+			};
+			name = Debug;
+		};
+		34140C8B1F57D90800671195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38DBE79CCAE06234E2424C91 /* Pods-RSBeautyCameraUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = RSBeautyCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSBeautyCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSBeautyCamera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34140C511F57D90400671195 /* Build configuration list for PBXProject "RSBeautyCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34140C811F57D90800671195 /* Debug */,
+				34140C821F57D90800671195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34140C831F57D90800671195 /* Build configuration list for PBXNativeTarget "RSBeautyCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34140C841F57D90800671195 /* Debug */,
+				34140C851F57D90800671195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34140C861F57D90800671195 /* Build configuration list for PBXNativeTarget "RSBeautyCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34140C871F57D90800671195 /* Debug */,
+				34140C881F57D90800671195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34140C891F57D90800671195 /* Build configuration list for PBXNativeTarget "RSBeautyCameraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34140C8A1F57D90800671195 /* Debug */,
+				34140C8B1F57D90800671195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34140C4E1F57D90400671195 /* Project object */;
+}
