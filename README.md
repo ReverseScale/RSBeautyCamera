@@ -3,7 +3,7 @@
 
 ![](https://img.shields.io/badge/platform-iOS-red.svg) 
 ![](https://img.shields.io/badge/language-Objective--C-orange.svg) 
-![](https://img.shields.io/badge/download-791K-brightgreen.svg)
+![](https://img.shields.io/badge/download-7MB-brightgreen.svg)
 ![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
 
 GPUImage 是一个开源的基于GPU的图片或视频的处理框架，其本身内置了多达120多种常见的滤镜效果。
@@ -60,7 +60,7 @@ GPUImageBeautyFilter *beautifyFilter = [[GPUImageBeautyFilter alloc] init];
 
 磨皮的本质实际上是模糊。而在图像处理领域，模糊就是将像素点的取值与周边的像素点取值相关联。而我们常见的高斯模糊 ，它的像素点取值则是由周边像素点求加权平均所得，而权重系数则是像素间的距离的高斯函数，大致关系是距离越小、权重系数越大。下图3.1是高斯模糊效果的示例:
 
-![](http://og1yl0w9z.bkt.clouddn.com/17-8-31/24571623.jpg)
+![](http://og1yl0w9z.bkt.clouddn.com/17-8-31/11226513.jpg)
 
 如果单单使用高斯模糊来磨皮，得到的效果是不尽人意的。原因在于，高斯模糊只考虑了像素间的距离关系，没有考虑到像素值本身之间的差异。举个例子来讲，头发与人脸分界处（颜色差异很大，黑色与人皮肤的颜色），如果采用高斯模糊则这个边缘也会模糊掉，这显然不是我们希望看到的。而双边滤波(Bilateral Filter) 则考虑到了颜色的差异，它的像素点取值也是周边像素点的加权平均，而且权重也是高斯函数。不同的是，这个权重不仅与像素间距离有关，还与像素值本身的差异有关，具体讲是，像素值差异越小，权重越大，也是这个特性让它具有了保持边缘的特性，因此它是一个很好的磨皮工具。下图3.2是双边滤波的效果示例：
 
